@@ -1,0 +1,104 @@
+body{
+    background-color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .navbar{
+    background-color:#2f323a;
+    border: 1px solid black;
+ text-align: left;
+    flex: 10%;
+  
+  }
+  
+  .main{
+    display: flex;
+
+  }
+
+  img{
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+
+  .headcontent{
+      border: 1px solid black;
+      
+  }
+
+  .headcontent p {
+      margin-left: 10px;
+  }
+  
+
+  .navbar a{
+    color: white;
+    line-height: 50px;
+  margin-left: 25px;
+    text-decoration: none;
+    cursor: pointer;
+
+  }
+  
+
+table{
+width: 2200px;
+}
+
+th{
+    text-align: center;
+}
+
+td{
+    padding: 25px;
+border: 1px solid black;
+border-left: none;
+    text-align: center;
+}
+
+
+.data1{
+
+ border: 1px solid black;
+ border-top: none;
+ 
+}
+
+
+
+  
+
+
+  .content{
+    flex: 80%;
+    background-color: white;
+
+      border: 1px solid black;
+      padding: 20px;
+
+  }
+  
+  .content h1{
+    text-align: center;
+  }
+  
+  @media(min-width: 321px) and (max-width: 425px){
+  
+    img{
+      width: 50%;
+    }
+  
+    .content{
+      width: auto;
+      height: auto;
+    }
+    .navbar{
+        text-align: center;
+        margin-left: none;
+      }
+      .navbar a{
+          margin-left: 0%;
+      }
+  }

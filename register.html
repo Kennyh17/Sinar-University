@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <script defer src="register.js"></script>
+    <link rel="icon" href="assets/favicon.ico">
+    <title>Register</title>
+</head>
+<body>
+
+    <header>
+        <img src="assets/logo.png" alt="">
+    </header>
+    
+    <div class="content">
+
+    <h1>Register Form</h1>
+    <form id="form" action="login.html" method="GET">
+    
+        <div><label for="nama"><b>Nama</b></label>
+        <input id="nama" name="nama" type="text">
+        </div>
+        
+        <div><label for="alamat"><b>Alamat</b></label>
+            <input id="alamat" name="alamat" type="text">
+            </div>
+
+            <div><label for="dob"><b>Tanggal Lahir</b></label>
+                <input id="dob" name="dob" type="date">
+                </div>
+
+                <div><label for="Email"><b>Email</b></label>
+                    <input id="email" name="email" type="text">
+                    </div>
+
+                    <div><label for="phone"><b>No. Telepon</b></label>
+                        <input id="phone" name="phone" type="number">
+                        </div>
+
+        <div><label for="password"><b>Password</b></label>
+        <input id="password" type="password" name="password" > 
+        </div>
+        
+    
+        <div><button type="submit">Register</button></div>
+        <div id="error"></div> 
+
+        <p>Sudah punya akun?</p> <a href="login.html">Klik disini</a>
+
+    </form>
+    </div>
+
+    
+</body>
+</html>

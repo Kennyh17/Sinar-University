@@ -1,0 +1,146 @@
+body{
+    background-color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .navbar{
+    background-color:#2f323a;
+    border: 1px solid black;
+
+    flex: 10%;
+  
+  }
+  
+  .main{
+    display: flex;
+
+  }
+
+  img{
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+  .navbar a{
+    color: white;
+    line-height: 50px;
+  margin-left: 25px;
+    text-decoration: none;
+    cursor: pointer;
+
+  }
+  
+  .info{
+    border: 1px solid black;
+  }
+
+
+
+.data{
+  border: 1px solid black;
+}
+
+.data p{
+  margin-left: 10px;
+}
+.info p{
+  margin-left: 10px;
+}
+  .card{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    
+  }
+
+  .tampilkan{
+    text-align: center;
+    font-size: large;
+    background-color: blanchedalmond;
+
+    border: 2px solid black;
+    cursor: pointer;
+  }
+
+  .card img{
+    width: 140px;
+    height: 120px;
+  margin-top: 20px ;
+  }
+
+ 
+  .carddata1{
+ 
+    line-height: 40px;
+    background-color:lightgreen;
+   border: 2px solid green;
+  }
+
+  .carddata2{
+
+    line-height: 40px;
+    background-color:cadetblue;
+    border: 2px solid lightblue;
+  }
+
+  .carddata3{
+  
+    line-height: 40px;
+    background-color:sandybrown;
+    border: 2px solid orange;
+   
+  }
+
+  .carddata4{
+ 
+    line-height: 40px;
+    background-color:steelblue;
+   
+  }
+  .desc{
+    text-align: center;
+  }
+
+
+
+  .content{
+    flex: 80%;
+    background-color: white;
+
+      border: 1px solid black;
+      padding: 20px;
+
+  }
+  
+  .content h1{
+    text-align: center;
+  }
+  
+  @media(min-width: 321px) and (max-width: 425px){
+  
+    img{
+      width: 50%;
+    }
+  
+    .content{
+      width: 50%;
+      height: auto;
+    }
+
+    .card{
+      width: 70%;
+     
+      display:inline-block;
+    }
+
+    .navbar{
+      text-align: center;
+    }
+    .navbar a{
+      margin-left: 0%;
+  }
+  
+  }
+  
